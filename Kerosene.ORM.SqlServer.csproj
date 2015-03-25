@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AE5730F-C7BB-4EA2-8FF4-1BA004811A58}</ProjectGuid>
+    <ProjectGuid>{2D092566-D251-4AB0-9441-06D39E31A4D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kerosene.ORM.SqlServer</RootNamespace>
@@ -41,34 +41,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="v2008\Api\IDataEngine.cs" />
     <Compile Include="v2008\Api\IParser.cs" />
-    <Compile Include="v2008\Concrete\DataEngine.cs" />
-    <Compile Include="v2008\Concrete\Parser.cs" />
-    <Compile Include="v2012\Api\IDataEngine.cs" />
+    <Compile Include="v2008\Concrete\DataEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="v2008\Concrete\Parser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="v2012\Api\IDataEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="v2012\Api\IParser.cs" />
-    <Compile Include="v2012\Api\IQueryCommand.cs" />
-    <Compile Include="v2012\Concrete\DataEngine.cs" />
-    <Compile Include="v2012\Concrete\Parser.cs" />
-    <Compile Include="v2012\Concrete\QueryCommand.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v2012\Api\IQueryCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="v2012\Concrete\DataEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="v2012\Concrete\Parser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="v2012\Concrete\QueryCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kerosene.ORM\Kerosene.ORM.csproj">
-      <Project>{04b419f6-02d8-411c-b5e7-0be415b73328}</Project>
+      <Project>{dc7ae7ef-edcb-4844-ab4b-b1392d63be75}</Project>
       <Name>Kerosene.ORM</Name>
     </ProjectReference>
     <ProjectReference Include="..\Kerosene.Tools\Kerosene.Tools.csproj">
-      <Project>{31387215-0bbd-4afe-b29b-2a8ad94073b6}</Project>
+      <Project>{b63f81b0-d595-426d-bdc3-cdb6fab0f000}</Project>
       <Name>Kerosene.Tools</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Configuration\App.config" />
+    <Content Include="License\Kerosene.ORM.SqlServer.License.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="License.txt" />
+    <None Include="Configuration\App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
