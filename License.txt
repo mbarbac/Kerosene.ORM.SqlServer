@@ -1,5 +1,5 @@
 ====================================================================================
-KEROSENE ORM
+KEROSENE ORM SQL SERVER
 Copyright (c) Moises Barba Cebeira 2008-2015. All rights reserved.
 ====================================================================================
 Free redistribution and use, for personal or commercial applications, either in

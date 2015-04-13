@@ -29,12 +29,6 @@ namespace Kerosene.ORM.SqlServer.v2008
 		new IDataEngine Clone(IDictionary<string, object> settings);
 
 		/// <summary>
-		/// Factory method to create a new parser adapted to this instance.
-		/// </summary>
-		/// <returns>A new parser.</returns>
-		new IParser CreateParser();
-
-		/// <summary>
 		/// Gets the provider factory associated with this engine.
 		/// </summary>
 		new SqlClientFactory ProviderFactory { get; }

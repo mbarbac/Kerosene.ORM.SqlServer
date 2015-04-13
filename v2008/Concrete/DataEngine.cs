@@ -87,20 +87,11 @@ namespace Kerosene.ORM.SqlServer.v2008.Concrete
 		}
 
 		/// <summary>
-		/// Factory method to create a new parser adapted to this instance.
+		/// Invoked to create a parser associated with this instance.
 		/// </summary>
-		/// <returns>A new parser.</returns>
-		public new Parser CreateParser()
+		protected override Core.IParser CreateParser()
 		{
 			return new Parser(this);
-		}
-		IParser IDataEngine.CreateParser()
-		{
-			return this.CreateParser();
-		}
-		Core.IParser Core.IDataEngine.CreateParser()
-		{
-			return this.CreateParser();
 		}
 	}
 }
