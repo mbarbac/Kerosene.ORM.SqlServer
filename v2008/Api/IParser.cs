@@ -1,5 +1,4 @@
-﻿// ======================================================== IParser.cs
-namespace Kerosene.ORM.SqlServer.v2008
+﻿namespace Kerosene.ORM.SqlServer.v2008
 {
 	using Kerosene.Tools;
 	using System;
@@ -19,4 +18,3 @@ namespace Kerosene.ORM.SqlServer.v2008
 		new IDataEngine Engine { get; }
 	}
 }
-// ======================================================== 

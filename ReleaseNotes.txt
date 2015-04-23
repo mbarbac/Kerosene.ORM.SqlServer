@@ -4,5 +4,8 @@ Copyright (c) Moises Barba Cebeira 2008-2015. All rights reserved.
 ====================================================================================
 VERSION 7.2.0:
 --------------
+-	General code refactoring.
+VERSION 7.0.5:
+-------------------
 -	Version change to keep in sync with core Kerosene.ORM package.
 ====================================================================================

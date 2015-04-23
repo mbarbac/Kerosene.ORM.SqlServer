@@ -1,5 +1,4 @@
-﻿// ======================================================== IDataEngine.cs
-namespace Kerosene.ORM.SqlServer.v2012
+﻿namespace Kerosene.ORM.SqlServer.v2012
 {
 	using Kerosene.Tools;
 	using System;
@@ -35,4 +34,3 @@ namespace Kerosene.ORM.SqlServer.v2012
 		new IQueryCommand CreateQueryCommand(Core.IDataLink link);
 	}
 }
-// ======================================================== 

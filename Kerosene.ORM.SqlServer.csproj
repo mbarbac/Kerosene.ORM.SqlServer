@@ -68,7 +68,7 @@
   <ItemGroup>
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
-    <None Include="Configuracion\App.config" />
+    <None Include="Configuration\App.config" />
     <None Include="Kerosene.ORM.SqlServer.nuspec" />
     <None Include="README.md" />
   </ItemGroup>

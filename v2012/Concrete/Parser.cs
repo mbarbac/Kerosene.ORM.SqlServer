@@ -1,5 +1,4 @@
-﻿// ======================================================== Parser.cs
-namespace Kerosene.ORM.SqlServer.v2012.Concrete
+﻿namespace Kerosene.ORM.SqlServer.v2012.Concrete
 {
 	using Kerosene.Tools;
 	using System;
@@ -41,4 +40,3 @@ namespace Kerosene.ORM.SqlServer.v2012.Concrete
 		}
 	}
 }
-// ======================================================== 
