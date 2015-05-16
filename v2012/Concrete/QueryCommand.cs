@@ -48,7 +48,7 @@ namespace Kerosene.ORM.SqlServer.v2012.Concrete
 		/// <summary>
 		/// Generates a string containing the command to be executed on the underlying database.
 		/// <para>The text returned might be incomplete and should not be used until the value of
-		/// the '<see cref="CanBeExecuted"/>' property is true.</para>
+		/// the 'CanBeExecuted' property is true.</para>
 		/// </summary>
 		/// <param name="iterable">True to generate the iterable version, false to generate the
 		/// scalar one.</param>
@@ -199,6 +199,7 @@ namespace Kerosene.ORM.SqlServer.v2012.Concrete
 		/// specified using the 'x => x(jointype).Table...' syntax, where the orphan invocation
 		/// must be the first one in the chain, and whose parameter is a string containing the
 		/// join clause to use.</para>
+		/// </param>
 		/// <returns>A self-reference to permit a fluent syntax chaining.</returns>
 		public new QueryCommand Join(Func<dynamic, object> join)
 		{

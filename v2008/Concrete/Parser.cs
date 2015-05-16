@@ -55,7 +55,7 @@ namespace Kerosene.ORM.SqlServer.v2008.Concrete
 		/// <para>- x.Element.Left(n), x.Element.Right(n)</para>
 		/// <para>- x.Element.Len(), x.Element.Lower(), x.Element.Upper()</para>
 		/// <para>- x.Element.Year(), x.Element.Month(), x.Element.Day()</para>
-		/// <para>- x.Element.Hour(), x.Element.Minute(), x.Element.Second(), x.Element.Millisecond()/para>
+		/// <para>- x.Element.Hour(), x.Element.Minute(), x.Element.Second(), x.Element.Millisecond()</para>
 		/// <para>- x.Element.Offset()</para>
 		/// <para>- x.Element.Contains(item), x.Element.Patindex(num), x.Element.Substring(start,len)</para>
 		/// <para>- x.Element.Trim(), x.Element.Rtrim(), x.Element.Rtrim()</para>

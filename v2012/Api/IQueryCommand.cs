@@ -86,6 +86,7 @@ namespace Kerosene.ORM.SqlServer.v2012
 		/// specified using the 'x => x(jointype).Table...' syntax, where the orphan invocation
 		/// must be the first one in the chain, and whose parameter is a string containing the
 		/// join clause to use.</para>
+		/// </param>
 		/// <returns>A self-reference to permit a fluent syntax chaining.</returns>
 		new IQueryCommand Join(Func<dynamic, object> join);
 
