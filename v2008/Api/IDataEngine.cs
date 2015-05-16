@@ -1,10 +1,10 @@
-﻿namespace Kerosene.ORM.SqlServer.v2008
-{
-	using Kerosene.Tools;
-	using System;
-	using System.Collections.Generic;
-	using System.Data.SqlClient;
+﻿using Kerosene.Tools;
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 
+namespace Kerosene.ORM.SqlServer.v2008
+{
 	// ==================================================== 
 	/// <summary>
 	/// Represents an underlying SQL SERVER 2008 database engine, maintaining its main

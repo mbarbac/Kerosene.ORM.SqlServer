@@ -1,8 +1,8 @@
-﻿namespace Kerosene.ORM.SqlServer.v2012.Concrete
-{
-	using Kerosene.Tools;
-	using System;
+﻿using Kerosene.Tools;
+using System;
 
+namespace Kerosene.ORM.SqlServer.v2012.Concrete
+{
 	// ==================================================== 
 	/// <summary>
 	/// Represents a query operation against the underlying database.

@@ -1,8 +1,8 @@
-﻿namespace Kerosene.ORM.SqlServer.v2008.Concrete
-{
-	using Kerosene.Tools;
-	using System;
+﻿using Kerosene.Tools;
+using System;
 
+namespace Kerosene.ORM.SqlServer.v2008.Concrete
+{
 	// ==================================================== 
 	/// <summary>
 	/// Represents an object able to parse an arbitrary object, or arbitrary logic expressed as

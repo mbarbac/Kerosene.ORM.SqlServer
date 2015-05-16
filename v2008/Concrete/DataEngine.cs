@@ -1,9 +1,9 @@
-﻿namespace Kerosene.ORM.SqlServer.v2008.Concrete
-{
-	using Kerosene.Tools;
-	using System;
-	using System.Collections.Generic;
+﻿using Kerosene.Tools;
+using System;
+using System.Collections.Generic;
 
+namespace Kerosene.ORM.SqlServer.v2008.Concrete
+{
 	// ==================================================== 
 	/// <summary>
 	/// Represents an underlying SQL SERVER 2008 database engine, maintaining its main

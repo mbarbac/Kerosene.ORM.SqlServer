@@ -1,9 +1,9 @@
-﻿namespace Kerosene.ORM.SqlServer.v2012
-{
-	using Kerosene.Tools;
-	using System;
-	using System.Collections.Generic;
+﻿using Kerosene.Tools;
+using System;
+using System.Collections.Generic;
 
+namespace Kerosene.ORM.SqlServer.v2012
+{
 	// ==================================================== 
 	/// <summary>
 	/// Represents an underlying SQL SERVER 2012 database engine, maintaining its main
