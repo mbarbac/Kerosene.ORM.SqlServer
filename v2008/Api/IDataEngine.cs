@@ -33,3 +33,4 @@ namespace Kerosene.ORM.SqlServer.v2008
 		new SqlClientFactory ProviderFactory { get; }
 	}
 }
+
