@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F186194-1E9B-4019-9CFE-6C31BE9E8A8A}</ProjectGuid>
+    <ProjectGuid>{F4D32DB4-2DCF-4E88-BC46-37CFD9CA8325}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kerosene.ORM.SqlServer</RootNamespace>
@@ -24,7 +24,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Kerosene.ORM.SqlServer.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,15 +32,16 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Kerosene.ORM.SqlServer.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -59,17 +59,18 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Kerosene.ORM\Kerosene.ORM.csproj">
-      <Project>{32c0e054-03be-402b-be9f-a51a7a0b0ac9}</Project>
+      <Project>{52ea74f3-aa39-45d5-987f-cc147e00da3b}</Project>
       <Name>Kerosene.ORM</Name>
     </ProjectReference>
     <ProjectReference Include="..\Kerosene.Tools\Kerosene.Tools.csproj">
-      <Project>{4cfe9465-0116-4a02-8cff-ca1f83fe200a}</Project>
+      <Project>{787a5c57-9e18-4186-90d6-6c7e66b53a64}</Project>
       <Name>Kerosene.Tools</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Configuration\App.config" />
     <None Include="Kerosene.ORM.SqlServer.nuspec" />
+    <None Include="Readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
